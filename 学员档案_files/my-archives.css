@@ -1,0 +1,116 @@
+/*搜索头部*/
+.mr70{margin-right: 70px;}
+ .search-content{ height:48px;}
+ .cultivate-right-tab-nav{margin-bottom: 0}
+ .cultivate-ta{ width: 360px;height:auto;overflow: hidden;display: none;padding-bottom: 6px;}
+.cultivate-right-tab { width: 948px; height:auto; overflow: hidden;border: 1px solid #e3e3e3;}
+.cultivate-ta.active{display: block;}
+.search-content input[type="text"]{width:120px;height:30px;line-height:32px;text-align: left;padding-left: 5px;outline:none;margin-left: 20px;border:0;border:solid 1px #dcdcdc;margin-top:9px;}
+.search-content select{height:32px;line-height:32px;width:150px;margin-top:9px;margin-left:30px;_height:27px;border:1px solid #dcdcdc;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);outline: none;}
+.search-content select:hover{border-color: #66afe9!important;outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);}
+.search-btn{border:none;margin-top: 9px;}
+.pp{display:inline-block;height:50px;}
+.input{width: 100%}
+.input span{display:block;height:28px;width:120px;line-height: 30px;margin:10px 44px;cursor: pointer; text-align: center;}
+/*档案列表*/
+.archives-list{padding:10px 0;width:900px;height:auto;overflow:hidden;}
+.archives-text{width: 400px;;height:auto;overflow: hidden;}
+.archives-text .archives-text-box{width: 400px;height:auto;overflow: hidden;}
+.archives-text  h2{font-size: 16px;color: #333;font-weight: bold;margin-bottom: 3px;}
+.archives-text .archives-text-box span{line-height:24px;  display: inline-block; clear: both;float: left;color:#7d7d7d;
+	font-size:12px;width:100%;}
+.archives-text .archives-text-box span .lookup{color:#25c1f0}
+.archives-text .archives-text-box span .lookup:hover{color:#0ba5d3}
+.archives-text .archives-text-box span .over-day{font-weight: bold;color:#ff0000;font-weight: bold;display: inline;font-size:12px;}
+.archives-pass,.archives-check{ line-height: 144px;}
+.archives-check{margin-top:60px;}
+.archives-passnew{line-height: normal;margin-top:30px;width:190px;}
+.archives-check{_margin-top:55px;}
+.archives-pass span{display:inline-block;padding:0 10px;font-size:14px;width:170px;}
+.archives-check a{width:90px;height:34px;line-height:34px;display: inline-block;text-align: center;font-size: 14px;}
+.archives-check a.archives-check-yes{background:#facd89;color:#fff;border:1px solid #f39800;}
+.archives-pass-yes{color:#32b16c;}
+.archives-pass-no{color:#ff0000;}
+.archives-pass-over{color:#666;}
+.archives-img {width:260px;height:146px;}
+/*录入档案列表*/
+.archives-input{width: 518px;padding-bottom:26px;display: none;}
+.archives-input h3{font-weight: bold;font-size: 18px;padding-top:23px;}
+.archives-input .order-pay-input-show{display:block;}
+.archives-input .pay-right-navtab{padding:inherit;_padding:0;*padding:0;width: 480px;}
+.archives-input .pay-input-list{width: 478px;}
+.archives-input .input-invoice-left div span, .input-invoice-right div span,.archives-input .inputbottom{font-size: 16px;}
+.archives-input .pay-input-list1 .input-invoice-left span{width:135px!important;}
+.archives-input .btn-center{width: 480px;display:inline-block;margin-top:45px;}
+.archives-input .layui-layer-close{position:relative;}
+.btn-center{margin: 0 auto;width:395px; height:35px; text-align: center;margin-top: 20px;float: left}
+.btn-center input{width:72px;height: 28px;border:none;outline: none;font-size:14px;}
+.btn-center .apply{background:#facd89;border:1px solid #f39800; color: #fff;font-weight: bold;}
+.btn-center .cancle{border:1px solid #00b7ee;background: #fff;color:#00b7ee;}
+/*我的考试*/
+.myexam-tab{background: none;border:none;height: 24px;}
+.myexam-tab ul{width: 100%;margin:10px 0 0 22px;}
+.myexam-tab ul li{width:60px;text-align: center;height: 22px;line-height: 22px;background: none;border: 1px solid #00b7ee;
+border-radius:5px;margin-right:5px;cursor: pointer;}
+.myexam-tab ul li a{color:#00b7ee;font-size: 14px;}
+.bdno{border:none;}
+.exam-score{width: 100px;text-align: center;}
+.exam-score h6{color:#7d7d7d;font-size: 12px;}
+.exam-score p{width:70px;height:70px;line-height:70px;text-align: center;color: #fff;font-size: 18px;font-weight: bold;
+background: url(../images/exam-score.png) no-repeat left center;margin: 10px auto;}
+.goexam{display: inline-block;font-size: 14px;color: #00b7ee;width: 78px;
+height: 28px;line-height: 28px;text-align: center;}
+.lookfile{color: #fff;background:#facd89;border: 1px solid #f39800;}
+.examicon{right: -1px;bottom: -1px;}
+.cultivate-right-tab-nav ul li.active-new{border: 1px solid #f39700;background:#facd89;}
+.cultivate-right-tab-nav ul li.active-new a{color: #fff;}
+.examsearch-content{background:#fcfcfc;border-bottom: 1px solid #e3e3e3;}
+.exam-statustab{border-bottom: 1px solid #e3e3e3;}
+.exam-status{display: none;}
+.exam-status.on{display: block;}
+.exam-status .archives-list{border-bottom: none;}
+.course-tips-test{margin:30px auto;}
+.course-tips-test p.nohave{color:#31ace2;font-weight:bold;width:38%;height:32px;line-height:32px;
+background:none;}
+/*考试弹窗*/
+.layui-layer{border-radius: 10px!important;}
+.hasexam-layer,.noexam-layer{display: none;}
+.hasexam-layer p,.noexam-layer p,.noprint-layer p{font-size: 16px;color: #333;text-align:center;}
+/*档案详情*/
+.archives-infor{width:auto;overflow: hidden;height: auto;padding-top: 10px;margin-bottom: 5px;}
+.archives-infor .infor-person span{font-size: 16px;display: inline-block;clear: both;float: left;line-height:32px;}
+.print-detail a,.print-archives-btn{width:80px;height:28px;line-height: 30px;display: inline-block;text-align: center;font-size: 14px;}
+/* .print-detail a.print-certificates{background:#facd89;color:#fff;border:1px solid #f39800} */
+.archives-pass a{cursor: default;font-size: 22px;}
+.archives-pass a.exam-pass{color:#32b16c; }
+.archives-pass a.exam-nopass{color:#ff0000;}
+.online-px{width: 865px;height:40px;background:#33a5ca;border-left:15px solid #169bd5;padding-left: 25px;margin:0 20px;margin-top: 20px; margin-bottom: 10px;}
+.online-px .online-px-title span{display: inline-block;font-size: 16px;line-height: 40px;height:40px;color:#fff;}
+.period{width:auto;overflow: hidden;}
+.online-px .online-px-title span span{font-size: 16px;color: #ff0000;padding: 0;}
+.period span{display: inline-block;height:40px;line-height:40px;padding:0 10px; font-size: 14px; color:#333333;}
+/*培训表格*/
+.online-px1 table{width:360px;height: auto;margin-top: 10px;}
+.online-px1 table thead tr th{border:1px solid #bfbfbf;line-height:40px;height: 40px; text-align: center; width:130px;background: #f6f6f6;
+color: #333;font-size: 16px; }
+.online-px1 table tbody tr td{border:1px solid #bfbfbf;height: 20px; text-align: center;color: #333;font-size: 10px; }
+/*证书弹窗*/
+.certificates-layer,.noprint-layer{display: none;}
+.table-box{padding: 5px;border: 1px dashed #ccc;width: 341px;margin:30px auto;}
+.certificates-table{width: 341px;}
+.certificates-table td{text-align: center;font-size: 12px;color: #333;border: 2px solid #000;}
+.certificates-table thead td{font-size: 18px;font-weight: bold;}
+.date {margin-top: 9px;margin-left: 22px;}
+.date .textbox-text{height: 30px!important;line-height: 30px!important;width: 120px!important;border-radius:0!important;
+	padding:0!important;border: 1px solid #dcdcdc!important;}
+.date .textbox{border: none;border-radius:0!important;width: 151px!important;}
+.date .textbox-addon{border:solid 1px #dcdcdc;border-left: none;}
+.date .datebox .combo-arrow{width: 28px!important;height: 30px!important;background: url(../images/dateicon_03.jpg) no-repeat 0 center!important;*margin-top: 1px;}
+/* 我的考试考前通知 */
+.eaxm-beforetest{padding:0 20px;}
+.eaxm-beforetest h1{font-size:16px;color:#333;font-family:"微软雅黑"!important;}
+.eaxm-beforemian span{font-size:14px;color:#333;font-family:"微软雅黑"!important;}
+.eaxm-beforefile a{color:#25c1f0}

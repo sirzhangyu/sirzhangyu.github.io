@@ -1,0 +1,65 @@
+.cultivate-right-tab{width: 360px;height:auto;border:1px dashed #e3e3e3;}
+.cultivate-right-tab-nav{width:100%;height: 42px;margin-bottom:15px;border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;}
+.cultivate-right-tab-nav ul{width: 518px;}
+.cultivate-right-tab-nav ul li a span{color: #ff0000;}
+.cultivate-right-tab-nav ul li a span.zero{color: #333;}
+.cultivate-select-right{height:38px;margin-bottom:15px;}
+.cultivate-select-right select{width: 83px;height: 36px}
+.cultivate-select-right p a{width: 130px;height: 38px;line-height:38px;display: block;color: #333;}
+.cultivate-select-right a:hover{width: 130px;height: 38px;line-height:38px;
+display: block;background: #00b7ee;color: #fff;}
+.cultivate-table{width: 909px;display:none;}
+.cultivate-table table{clear: both;}
+.cultivate-table.active{display: block;}
+.cultivate-table tr th{background: #f6f6f6;}
+.cultivate-table tr th,.cultivate-table tr td{height:38px;text-align: center;font-size: 16px;color: #333;
+border:1px solid #bfbfbf;}
+.cultivate-table tr td{font-size: 14px;}
+.pop-up{width: 550px;height: 350px;border-radius: 5px;display: none;}
+.pop-up-wrap .textarea-neirong{height: auto!important;overflow: hidden;}
+.pop-up-wrap{width: 472px;}
+.pop-up-wrap p span{display:inline-block;width: 74px;margin-top:20px;font-size: 16px;}
+.pop-up-wrap p i{color: #ff0000;font-style: normal;display: inline-block;margin-left: 15px;}
+.pop-up-wrap p input{width: 248px;height: 28px;line-height:28px;border:1px solid #d2d2d2;
+margin-top:17px;outline: none;}
+.pop-up-wrap p textarea{width: 385px;height: 138px;border:1px solid #d2d2d2;
+margin-top:24px;color: #a0a0a0;padding:5px;} 
+.pop-up-wrap .btn a{display:inline-block;height: 30px;line-height: 30px;width:80px;position:initial}
+.questionnaire-margin{width:852px;}
+.questionnaire-box{width:885px;height: auto!important;overflow:hidden;border-top:1px solid #e3e3e3;}
+.questionnaire-box b{font-size:18px;color: #333;font-weight:normal;display:inline-block;}
+.questionnaire-margin p{color: #7d7d7d;margin-bottom:10px;}
+.questionnaire-content{width: 852px;}
+.questionnaire-content p{color: #333;line-height: 25px;}
+.questionnaire-list{width: 852px;height:auto;margin-top:28px;}
+.questionnaire-list p{font-size: 14px;color: #8e8e8e;margin-top:5px;}
+.radio-box input{margin-left:20px;}
+.radio-box{margin-right:20px;}
+.questionnaire-table{margin:13px 0 0 20px;width: 698px;}
+.questionnaire-table th{text-align: center;height: 38px;background: #f6f6f6;font-size: 16px;border:1px solid #bfbfbf;}
+.questionnaire-table td{height: 38px;text-align: center;border:1px solid #bfbfbf;}
+.questionnaire-list .textarea textarea{width:100%;height: 88px;border: 1px solid #d2d2d2; resize: none;
+padding:10px;color: #858585;}
+.wjtj-btn{width:80px;height:30px;line-height:30px;padding:0;cursor: pointer;border:none;font-size:14px;}
+
+.mail-wrap{width:870px;height:auto!important;overflow:hidden;margin:20px auto;}
+.mail-wrap-left{margin:10px 0 10px 10px;width: 35%;clear:both;}
+.mail-wrap-left p{width:180px;padding:4px 8px;background: #cfcfcf;border-radius: 5px;color: #333;font-size: 14px;margin:18px 0 0 25px;
+  word-break: break-all;}
+.mail-wrap-jiao{position: relative;}
+.mail-wrap-right .mail-wrap-jiao p{background: #33c5f1;}
+.mail-wrap-jiao span{position: absolute;left:26px;top:0;color:#8e8e8e;}
+.mail-wrap-jiao i{position: absolute;left: 16px;top: 26px;z-index: 9;}
+.textarea-wrap textarea{width:850px;height: 118px;background: #eee;padding:10px;font-size: 16px;color: #545454;border:1px solid #d2d2d2;}
+.textarea-btn input{width: 90px;height: 30px;line-height:30px;background: #00b7ee;color: #fff;
+border:none;cursor: pointer;padding-left:0;outline: none;}
+.textarea-btn input:hover{background: #facd89;}
+
+.message-details{display: block;width: 100%;}
+.message-details .questionnaire-content p{line-height:30px;text-indent:2em;}
+.return{font-size: 16px;color: #333;background: url(./return.png) no-repeat left center;
+line-height: 16px;padding-left: 28px;cursor: pointer;}
+.cultivate-table tr td a{font-size: 14px;color: #333;line-height:22px;padding:0 5px;display:inline-block;}
+.cultivate-table tr td a img{margin-right:5px;}
+.hege{float:right;width:40px;padding: 20px 160px 0 0;}
+.hege img{width:100%;height:100%;}
